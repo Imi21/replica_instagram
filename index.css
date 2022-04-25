@@ -1,0 +1,119 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+main{
+   margin: 5% auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-content: center;
+
+   
+}
+
+section{
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    width:fit-content;
+
+}
+
+.mobile{
+    margin: 0 auto;
+}
+
+.mainLogin{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    margin-left: 40px;
+    
+    
+}
+
+.loginData{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid rgb(177, 171, 171);
+    padding: 10% 15% 10%;
+    
+}
+
+picture{
+    margin-bottom: 30px;
+}
+
+form{
+    margin-bottom: 10px;
+}
+input{
+    height: 2em;
+    width: 220px;
+}
+
+button{
+    padding-top: 10px;
+    border: none;
+}
+
+.inicio{
+    padding-bottom: 25px;
+    text-align: center;
+    border-radius: 3px;
+    height: 2em;
+    width: 220px;
+    background-color: rgb(15, 81, 131);
+    color: white;
+    font-weight: bold;
+}
+
+.cuenta{
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid rgb(177, 171, 171);
+    width: 320px;
+    
+}
+
+.apps{
+    margin: 0;
+}
+
+.separate{
+    display: flex;
+    
+}
+
+hr{
+    margin: auto 15px;
+    width: 70px;
+}
+  
+  footer {
+    color: gray;
+    margin: 32px auto;
+  }
+  footer a {
+    text-decoration: none;
+    color: var(--darkgrey);
+    margin: 8px;
+    font-size: 14px;
+  }
+  footer .links-top,
+  footer .links-down,
+  footer .copyright {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  footer .copyright {
+    margin: 8px 0;}
